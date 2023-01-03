@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* body{
+  background-image: url('https://picsum.photos/3000/3000');
+background-size: cover;
+background-repeat: no-repeat;
+} */
+
+
+
+
+.Title{
+text-align: center;
+color: red;
+font-size: 60px;
+}
+.Img_div{
+  display: flex;
+  justify-content: center;
+}
+.Img_div img{
+  width: 200px;
+  height: 300px;
+  margin: 15px;
+}
+.contcard{
+width: 100vw;
+height: 500px;
+
+}
+.val{
+  text-align: center;
+}
+.val h1{
+  font-size: 50px;
+  color: purple;
+}
+.val input{
+  width: 50vw;
+  height: 40px;
+  font-size: 30px;
+  color: purple;
+  text-align: center;
+  font-weight: bold;
+}
+.val button{
+  width: 130px;
+  height: 50px;
+  margin-top: 20px;
+  background-color: purple;
+  color: white; 
+  font-size: 30px;
+}
+.caa{
+  background-color: azure;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: scroll;
+}
+.card-item{
+  margin: 20px;
+  width: 300px;
+  height: 200px;
+}
+
+.sno{
+ background-color: red;
+}
+.name{
+  background-color: blue;
+}
+.lname{
+  background-color: aqua;
+}
+
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 24px;
+  line-height: 1.33;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
+
+.todocard h1{
+  margin-top: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  background-color: purple;
+  color: white;
+}
+.todocard input:hover{
+border-color: blue;
+}
+.todocard input{
+ border: none;
+ text-align: center;
+ border-bottom: 3px solid purple;
+ font-size: 25px;
+ width: 50%;
+ height: 80px;
+}
+.todocard input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+.button{
+  font-size: 40px;
+  min-height: 40px;
+  width: 58px;
+  border: none;
+ border-color: transparent;
+ background-color: purple;
+ border-radius: 50%;
+ outline: none;
+ font-weight: bolder;
+  text-align: center;
+color: white;
+margin-left: 10px;
+}
+.todocard button:hover{
+ background-color:  green;
+}
+.todocard ol li{
+  /* list-style-type: "\274C"; */
+  list-style: none;
+  font-size: 25px;
+  color: purple;
+  font-weight: bold;
+text-transform: capitalize;
+}
+.list{
+  /* position: fixed; */
+  display: flex;
+  justify-content: space-around;  
+}
+
+
+.itemm{
+  width: 90%;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+.itemm i{
+  margin-right: 15px;
+  font-size: 25px;
+  color: purple;
+  font-weight: bold;
+}
+.itemm i:hover{
+  color: red;
+  font-weight: bold;
+}
+.time{
+  text-align: center;
+ color: purple;
+}
+.time h1{
+  font-size: 80px;
+}
